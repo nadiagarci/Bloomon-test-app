@@ -6,9 +6,11 @@ class Router
   end
 
   def run
-    puts "           --           "
-    puts "   Welcome to BLOOMON   "
-    puts "           --           "
+    puts ""
+    puts ""
+    puts "---------------------------------------"
+    puts "   Welcome to BLOOMON test app! ✿ ✿ ✿  "
+    puts "---------------------------------------"
     while @running
       display_tasks
       answer = ask_for_action
@@ -30,7 +32,7 @@ class Router
     when 2 then @flowers_controller.add
     when 3 then @bouquets_controller.list
     when 4 then @bouquets_controller.add
-    when 5 then @orders_controller.list_undelivered_orders
+    when 5 then @orders_controller.list
     when 6 then stop
     else
       puts "Please press 1, 2, 3, 4, 5, 6 or 7"
@@ -49,6 +51,7 @@ class Router
     puts "4 - Add a bouquet specification"
     puts "5 - List all undelivered orders (output bouquet specs)"
     puts "6 - Stop and exit the program"
-    puts "............................."
+    puts ""
+    puts "✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ "
   end
 end

@@ -6,20 +6,4 @@ class Order
     @bouquet = attributes [:bouquet]
     @specification = attributes[:specification]
   end
-
-  def delivered?
-    @delivered = true
-  end
-
-  def deliver!
-      # @marked = attributes [:marked] || false
-  end
-
-  def flower
-    @flower
-  end
-
-    def bouquet
-    @bouquet
-  end
 end
