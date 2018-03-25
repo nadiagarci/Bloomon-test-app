@@ -1,4 +1,4 @@
-AL10a15b5c30
+dadeds
 AS10a10b25
 BL15b1c21
 BS10b5c16
@@ -41,5 +41,3 @@ cS
 bS
 bS
 aL
-cS
-DL20b29

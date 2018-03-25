@@ -31,8 +31,7 @@ class Router
     when 3 then @bouquets_controller.list
     when 4 then @bouquets_controller.add
     when 5 then @orders_controller.list_undelivered_orders
-    when 6 then @orders_controller.add
-    when 7 then stop
+    when 6 then stop
     else
       puts "Please press 1, 2, 3, 4, 5, 6 or 7"
     end
@@ -44,13 +43,12 @@ class Router
 
   def display_tasks
     puts ""
-    puts "1 - List of all the flowers"
+    puts "1 - List all the flowers"
     puts "2 - Add a new flower"
-    puts "3 - List all bouquets"
-    puts "4 - Add bouquet"
-    puts "5 - List all undelivered orders"
-    puts "6 - Add new order"
-    puts "7 - Stop and exit the program"
+    puts "3 - List all the bouquet specifications"
+    puts "4 - Add a bouquet specification"
+    puts "5 - List all undelivered orders (output bouquet specs)"
+    puts "6 - Stop and exit the program"
     puts "............................."
   end
 end

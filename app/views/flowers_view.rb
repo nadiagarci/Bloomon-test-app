@@ -1,5 +1,4 @@
-# flowers = [{id: 1,name: "Margherita",price: 8},
-# {id: 2,name: "Capricciosa",price: 11}]
+
 
 class FlowersView
   def display(flowers)
@@ -17,5 +16,3 @@ class FlowersView
 
 end
 
-# menu_1 = View.new
-# menu_1.display(flowers)

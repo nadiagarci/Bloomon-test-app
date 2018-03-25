@@ -25,10 +25,11 @@ class BouquetRepository
   private
 
   def write_to_file
-    File.open(@file, 'a') do |f|
-    f.puts "#{@bouquet.specification}"
-    end
-
+    # File.open(@file, 'a') do |f|
+    # f.puts "#{@bouquet.specification}"
+    # end
+    file = File.read(@file).sub(/\w\w\w.*/, "#{@bouquet.specification}")
+    File.write(@file, file)
   end
 
   def load_from_file

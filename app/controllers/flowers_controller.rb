@@ -2,10 +2,6 @@ require_relative "../views/flowers_view"
 require_relative "../models/flower"
 # require_relative "../repositories/flower_repository"
 
-# flower_repository = [{id: 1,name: "Margherita",price: 8},
-# {id: 2,name: "Capricciosa",price: 11}]
-
-
 
 class FlowersController
   def initialize(flower_repository)
@@ -25,8 +21,4 @@ class FlowersController
   end
 end
 
-# var = flowersController.new(flower_repository)
-# var.list
 
-# List all flowers available in the restaurant
-# Add a new flower
